@@ -10,16 +10,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* padding: 1rem; */
+}
+@media screen and (max-width:450px) {
+	body{
+		zoom: 60%;
+	}
 }
 
 .calculator {
-  max-width: 450px;
-  width: 90%;
+  width: 450px;
   display: flex;
   margin-top: 2rem;
   justify-content: center;
   flex-wrap: wrap;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 .calculator .output {
   width: 100%;
